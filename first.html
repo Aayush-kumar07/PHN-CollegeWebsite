@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Engineering College HomePage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(16, 26, 26);
+        }
+
+        header {
+            /* background-image: linear-gradient(to bottom right, #424fe7, #8ab2e3); */
+            background-image: url("bit\ back.jpg");
+            color: #090909;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            height: 346px;
+            background-size: cover;
+            display: flex;
+        }
+
+        h1 {
+            margin: 31px;
+            font-size: 48px;
+            font-weight: bold;
+            color: #f6f8f1;
+        }
+
+        nav {
+            background-color: #e4e5e1;
+            border-bottom: 1px solid #a32b2b;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+
+        section {
+            background-color: #f6f8f1;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+            animation: fadeIn 1s ease-in;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            animation: spin 2s ease-in;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Birla_Institute_of_Technology_Mesra.png" alt="Engineering College Logo" class="logo">
+        <h1>Birla Institute Of Technology, Mesra </h1>
+    </header>
+    <nav>
+        <a href="#about">About us</a>
+        <a href="#department">Department</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#research">Research</a>
+        <a href="#placement">Placement</a>
+        <a href="#contact">Contact us</a>
+    </nav>
+    <section id="about">
+        <h2>About us</h2>
+        <p>Engineering College is a leading institution in the field of engineering education. We offer a range of
+            undergraduate and graduate programs designed to equip students with the knowledge and skills they need to
+            succeed in the engineering industry.</p>
+    </section>
+    <section id="department">
+        <h2>Department</h2>
+        <p>Our college offers the following streams/branches:</p>
+        <ol>
+            <li>Computer Science Engineering</li>
+            <li>Electronics and Communication Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Chemical Engineering</li>
+            <li>Electrical Engineering</li>
+        </ol>
+    </section>
+    <section id="faculty">
+        <h2>Faculty</h2>
+        <p>Our faculty members are highly qualified and experienced in their respective fields.</p>
+    </section>
+    <section id="research">
+        <h2>Research</h2>
+        <p>We encourage and support research activities in various fields of engineering.</p>
+    </section>
+    <section id="placement">
+        <h2>Placement</h2>
+        <p>We have a dedicated placement cell that works to ensure that our students get placed in top companies.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact us</h2>
+        <p>You can contact us through the following channels:</p>
+        <ul>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: bitmesra@engineeringcollege.com</li>
+            <li>Address: 123 Main Street, Ranchi, India</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy;Birla Institute Of Technology,Mesra 2023 </p>
+    </footer>
+</body>
+
+</html>
